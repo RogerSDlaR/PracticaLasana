@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Cocción</title>
+    <link rel="stylesheet" href="CalculadoraDeTiempo.CSS">
+</head>
+<body>
+    <div class="Principal">
+        <h1>Calculadora de Tiempo para Preparar Lasaña</h1>
+        <div class="Formulario">
+            <label for="layers">Número de capas de lasaña:</label>
+            <input type="number" id="Capas" placeholder="Introduce el número de capas">
+        </div>
+        <div class="formulario-grupo">
+            <label for="TiempoHorno">Tiempo actual en el horno (en minutos):</label>
+            <input type="number" id="TiempoHorno" placeholder="Introduce el tiempo en el horno">
+        </div>
+        <button id="BtnCalcular">Calcular</button>
+        <div id="resultados" class="resultados">
+            <p id="TiempoRestante">Tiempo restante en el horno: </p>
+            <p id="TiempoPreparacion">Tiempo total de preparación: </p>
+            <p id="TiempoTotal">Tiempo total de trabajo: </p>
+        </div>
+    </div>
+    <script src="CalculadoraDeTiempo.js"></script>
+</body>
+</html>
