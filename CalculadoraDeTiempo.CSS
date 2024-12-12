@@ -1,0 +1,67 @@
+body {  
+    font-family: 'Verdana', sans-serif;  
+    background-color: #e0f7fa; /* Color de fondo más suave */  
+    margin: 0;  
+    padding: 0;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+}  
+
+.Principal {  
+    background-color: #ffffff; /* Color del contenedor */  
+    padding: 30px;  
+    border-radius: 12px; /* Esquinas más redondeadas */  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */  
+    width: 400px;  
+    text-align: center;  
+}  
+
+h1 {  
+    color: #005b96; /* Color del título */  
+    margin-bottom: 20px; /* Espaciado inferior */  
+}  
+
+.Formulario {  
+    margin: 15px 0;  
+}  
+
+label {  
+    font-weight: bold;  
+    color: #444; /* Color del texto de las etiquetas */  
+}  
+
+input {  
+    padding: 12px; /* Más espacio en el input */  
+    width: 90%; /* Aumentar el ancho */  
+    margin-top: 5px;  
+    border: 2px solid #00bcd4; /* Borde con color diferente */  
+    border-radius: 6px; /* Esquinas más redondeadas */  
+}  
+
+button {  
+    background-color: #ff5722; /* Nuevo color de fondo */  
+    color: white;  
+    padding: 12px 25px; /* Espacio adicional */  
+    border: none;  
+    border-radius: 6px; /* Esquinas más redondeadas */  
+    cursor: pointer;  
+    font-size: 18px; /* Tamaño de fuente aumentado */  
+    margin-top: 25px; /* Espaciado superior */  
+    transition: background-color 0.3s; /* Efecto suave al pasar el mouse */  
+}  
+
+button:hover {  
+    background-color: #e64a19; /* Color al pasar el mouse */  
+}  
+
+.resultados {  
+    margin-top: 20px;  
+    font-size: 16px;  
+    color: #333;  
+}  
+
+p {  
+    font-weight: bold;  
+}
